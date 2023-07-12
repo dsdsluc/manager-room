@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    padding: 0 10px;
+    position: sticky!important;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+    border-bottom:1px solid #ddd ;
+    
+   
+}
+.header__main {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    flex: 1;
+}
+.header__logo {
+    padding: 5px;
+    margin-right: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s background 0s;
+}
+.header__logo--fold {
+    width: 80px;
+    transition: all 0.2s background 0s;
+}
+
+.main__sider {
+    position: fixed!important;
+    top: 70px;
+    z-index: 1;
+    left: 0;
+    height: calc(100vh - 70px);
+    border-right: 1px solid #ddd;
+}
+.main__content{
+    margin-left: 220px;
+    transition: all 0.2s background 0s;
+    padding: 10px 10px 30px 10px;
+}
+.main__content--fold{
+    margin-left: 100px;
+    transition: all 0.2s background 0s;
+
+
+}

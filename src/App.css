@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.mh-500{
+  min-height: 500px;
+}
+.mt-20{
+  margin-top: 20px;
+}
+.w-90{
+  width: 90%;
+}

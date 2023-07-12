@@ -1,0 +1,39 @@
+.notify {
+    width: 300px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.notify__head {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+
+}
+
+.notify__body > ul{
+    box-shadow: none !important;
+}
+.notify__body .notify__item {
+    display: flex ;
+    
+}
+.notify__content {
+    margin-left: 5px;
+}
+.notify__content .notify__message {
+    color: #000;
+    font-size: 16px;
+}
+
+.notify__content .notify__time {
+    color: #333;
+    font-size: 13px;
+}
+
+.notify__icon {
+    color: blue;
+    
+}
